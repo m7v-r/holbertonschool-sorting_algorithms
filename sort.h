@@ -18,11 +18,11 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/* Helper functions provided */
+/* Prototypes for helper functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
-/* Prototypes for tasks */
+/* Prototypes for mandatory tasks */
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 
